@@ -1,3 +1,5 @@
+If needs fast speed, use folder /fastscratch
+
 # Abbreviations
 
 
