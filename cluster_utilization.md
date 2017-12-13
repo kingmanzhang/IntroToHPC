@@ -1,5 +1,16 @@
 # Cluster Utilization
 
+			How to visualize available sofeware?
+			$module -l avail
+			
+			To load a module
+			$module load bowtie2/2.3.1
+			
+			The cluster is based on Red Hat
+			
+			When submitting jobs, specify the version. Otherwise, a default is used or the latest version is used. 
+			
+
 ## HPC Live
 
 [HPC Live](http://hpclive.jax.org/active.php)
