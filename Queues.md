@@ -80,6 +80,9 @@ batch                0    142   yes   yes     0   133     8     0     0     0 E 
 * 1 job, 8 hours.
 * This queue allows limited interactivity for script development and troubleshooting, while the minimal walltime limits the amount of computational resources a single user can monopolize.
 
+                            $qsub -q short -I
+                            opens an interactive node
+
 ### Batch Queue (`batch`)
 
 * No interactivity allowed. Job arrays allowed.
