@@ -50,6 +50,11 @@ batch              --      --    72:00:00   --  133   8 --   E R
                                                  134     8
 ~~~
 
+
+                                    --Walltime: estimation of upper time required for a job. 
+                                    --Default is 1 hour. After 1 hour, the job will be killed. 
+                                    --so try to over estimate the required time. 
+
 qstat -Q
 
 ~~~
