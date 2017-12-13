@@ -8,7 +8,15 @@
 			
 			The cluster is based on Red Hat
 			
-			When submitting jobs, specify the version. Otherwise, a default is used or the latest version is used. 
+			When submitting jobs, specify the version. Otherwise, a default is used or the latest version is used.
+			
+			To submit 
+			qsub application.sh
+			
+			set up dependency
+			$ JOBHOLD=$(qsub application.sh)
+			$ echo JOBHOLD
+			This will return the job number for application, so that other jobs can be dependent on this one. 
 			
 
 ## HPC Live
