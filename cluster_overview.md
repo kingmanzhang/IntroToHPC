@@ -14,6 +14,8 @@ If needs fast speed, use folder /fastscratch
 | ------------- | ---------------- |
 | helix.jax.org | cadillac.jax.org |
 
+Should not use Helix node to run processes. 
+
 ## Compute nodes
 
 [Node List Breakdown](nodes.md)
